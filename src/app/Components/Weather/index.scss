@@ -1,0 +1,60 @@
+Main{
+  background-color: aqua;
+  width: 400px;
+  height: 300px;
+  padding: 25px;
+}
+.input-search{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.input-search > input{
+  width:250px;
+  height: 25px;
+  border: 2px green solid;
+}
+.input-search > button{
+background-color: black;
+color: white;
+border: none;
+border-radius: 4px;
+}
+.information{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.information > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.city{
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.date{
+  font-size: 1.4rem;
+}
+.temp{
+  font-size: 1.8rem;
+  font-weight: 700
+}
+.weather{
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.wind-humidity{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.wind-humidity > article > p{
+  margin-top: 10px;
+  margin-bottom: -10px;
+  font-weight: 700;
+}
